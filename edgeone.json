@@ -12,8 +12,6 @@
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
-
-    // 如果你的图片不带 hash（文件名固定），先给中等缓存更安全
     {
       "source": "/PostCover/*",
       "headers": [
